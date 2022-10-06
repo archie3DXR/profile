@@ -1,0 +1,96 @@
+h1 {
+  font-family: 'Passions Conflict', cursive;
+  font-size: 120px;
+  color: #ffffff;
+  line-height: 0;
+}
+
+h2 {
+  font-family: 'Inter Tight', sans-serif;
+  color: #ffffff;
+}
+
+body {
+  font-family: 'Inter Tight', sans-serif;
+  font-size: 16px;
+  background-color: rgb(188, 198, 198);
+  text-align: center;
+  color: #ffffff;
+}
+
+
+.container {
+  width: 100%;
+  background-image: url(images/BG.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 100px 0px;
+  margin: 0px auto;
+}
+
+.profile-box {
+  width: 50%;
+  background: #ec823b;
+  text-align: center;
+  padding: 30px;
+  margin: auto;
+  position: relative;
+  border-radius: 20px;
+  border: 2px solid #ff9650;
+}
+
+.profile-pic {
+  width: 60%;
+  border-radius: 50%;
+  background: #ffffff;
+  padding: 5px;
+}
+
+.button {
+  background-color: #d2385c;
+  border-radius: 5px;
+  border-style: none;
+  color: #FFFFFF;
+  margin: 10px 2px;
+  padding: 5px 6px;
+  display: inline-block;
+  font-size: 21px;
+  list-style: none;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+}
+
+.button:hover {
+  background-color: #4940bb;
+}
+
+.button-1 {
+  background-color: #d2385c;
+  border-radius: 8px;
+  border-style: none;
+  color: #FFFFFF;
+  margin: 10px;
+  padding: 6px 15px;
+  display: inline-block;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 20px;
+  list-style: none;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+}
+
+.button-1:hover {
+  background-color: #ffb2b2;
+}
+
+.logo-icon {
+  width: 100px;
+  height: 100px;
+  display: block;
+}
